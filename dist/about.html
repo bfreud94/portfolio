@@ -1,95 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>About Me</title>
-</head>
-<body>
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="./img/favicon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>About Me</title>
+    </head>
+    <body>
+        <header>
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
             </div>
-            <ul class="menu-nav">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item current">
-                    <a href="about.html" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="work.html" class="nav-link">My Work</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">How to Reach Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main id="about">
-        <h1 class="lg-heading">About 
-            <span class="text-secondary">Me</span>
-        </h1>
-        <h2 class="sm-heading">My bio and some professional Experience</h2>
-        <div class="about-info">
-            <img src="img/portrait.jpg" alt="Ben Freudman" class="bio-image">
+            <nav class="menu">
+                <div class="menu-branding">
+                    <div class="portrait"></div>
+                </div>
+                <ul class="menu-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item current">
+                        <a href="about.html" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="professional.html" class="nav-link">Professional Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="personal.html" class="nav-link">Personal Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">How to Reach Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="about">
+            <h1 class="lg-heading">About 
+                <span class="text-secondary">Me</span>
+            </h1>
+            <h2 class="sm-heading">I do much more than just write code! You can learn more about me in the section below.</h2>
+            <div class="about-info">
+                <div class="bio-personal-life">
+                    <div class="description-and-image">
+                        <img src="img/about/freud.jpg" alt="Freud">
+                        <img src="img/about/friends.jpg" alt="Friends">
+                    </div>
+                    <div>
+                        <h1 class="lg-heading">Bio/Personal 
+                            <span class="text-secondary">Life</span>
+                        </h1>
+                        <p>
+                            <span>I grew up in Great Neck, NY, and attended college at Brandeis University.</span>
+                            <span>After graduating in 2016 with a Bachelor of Science in Computer Science and minors in Business and Economics, I started working for Optum in their Boston office as a software engineer. </span>
+                            <span>I worked for Optum for three and a half years before moving back to New York and changing jobs to my current role at UBMe.</span>
+                            <span>I believe that my passion for my interests sets me a part from others, and that I can achieve anything if I put my mind to it.</span>
+                            <span>I have a twin sister and a younger sister, and two healthy and happily married parents.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="technical-proficencies">
+                    <div class="description-and-image">
+                        <img src="img/about/technology1.jpg" alt="Technology">
+                        <img src="img/about/technology2.jpg" alt="Technology">
+                    </div>
+                    <div>
+                        <h1 class="lg-heading">Technical 
+                            <span class="text-secondary">Proficencies</span>
+                        </h1>
+                        <p>
+                            <span>I have worked on many projects in my career covering many different technologies:</span>
+                        </p>
+                        <p>
+                            <span>Front End Technologies: React, Material-UI, Redux, Angular, TypeScript</span>
+                        </p>
+                        <p>
+                            <span>Application Server/Backend Technologies: JavaScript, Node.js, Express, Java, Spring, Struts, Apache Tomcat, JBoss, Python, Flask, Django</span>
+                        </p>
+                        <p>
+                            <span>Database Technologies: MongoDB, MySQL, DB2, MSSQL Server</span>
+                        </p>
+                        <p>
+                            <span>DevOps/Miscellaneous Technologies: Git, Jenkins, Npm, Maven, Docker, AWS, Heroku</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="sports">
+                    <div class="description-and-image">
+                        <img src="img/about/running.jpg" alt="Optum">
+                        <img src="img/about/skiing.jpg" alt="Optum">
+                    </div>
+                    <div>
+                        <h1 class="lg-heading">Athletic 
+                            <span class="text-secondary">History</span>
+                        </h1>
+                        <p>
+                            <span>I am very fortunate to have had the opportunties and good health that allowed me to play many sports throughout my life.</span>
+                            <span>I am a very avid runner and when healthy run pretty much everyday. I suffered a torn meniscus in the beginning of 2019 that had me sidelined until the fall of 2020.</span>
+                            <span>It was the first time I had surgery, and hopefully the last. It taught me to treat every run like it's my last, and to respect workouts more.</span>
+                            <span>I do not plan on running competitively anymore, but still plan on training fairly often.</span>
+                            <span>I started playing tennis at a very young age, and played up until college. I still enjoy it casually, but do not play competitively anymore.</span>
+                            <span>Most other sports I played for a few years or casually such as basketball, baseball, and swimming.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="hobbies">
+                    <div class="description-and-image">
+                        <img src="img/about/landscape1.jpg" alt="Landscape">
+                        <img src="img/about/landscape2.jpg" alt="Landscape">
+                    </div>
+                    <div>
+                        <h1 class="lg-heading">Hobbies and 
+                            <span class="text-secondary">Interests</span>
+                        </h1>
+                        <p>
+                            <span>Outside of programming professionally and for fun, playing sports, and hanging out with friends, I love to travel and take pictures; these two pictures are from Iceland and Israel, respectively.</span>
+                            <span>I also love playing video games.</span>
+                            <span>I still play Nintendo's latest releases of Mario and Pokemon games, as well as strategy games like Hearthstone and Sid Meier's Civilization V.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
 
-            <div class="bio">
-                <h3 class="text-secondary">BIO</h3>
-                <p>I'm a Software Engineer currently working at UBMe. I graduated Brandeis University in 2016, where I earned my Bachelor of Science in Computer Science
-                with minors in Business and Economics. I've worked on many different projects spanning across many different programming langauges, frameworks, and miscellaneous technologies.
-                Outside of programming, I like to play sports, watch TV and documentaries, and hang out with friends and family.
-                </p>
-            </div>
+        <footer id="main-footer">
+            Copyright &copy; 2020
+        </footer>
 
-            <div class="job job-1">
-                <h3>UBMe, Inc</h3>
-                <h5>Principle Engineer</h5>
-                <p>UBMe's mission is to create Hyperlocal Communities allowing people to communicate and socialize. UBMe has an App on the App Store and Play Store that allows people to do this.
-                    UBMe also has a business platform that allows businesses to promote themselves by creating a Hyperlocal Community themselves. Since I have been with the company, I have worked on
-                    expanding this functionality to Event Organizers as well. In addition, I have created a Curbside Communication for businesses to continue serving their patrons safely.
-                </p>
-            </div>
-            <div class="job job-2">
-                <h3>Optum Inc, Employer eServices Portal</h3>
-                <h5>Full Stack Engineer</h5>
-                <p>Employer eServices is a solution for company administrators to manage their employee healthcare plans. 
-                    Since joining the team, I've worked on several different projects, including 
-                    the ability for users to request temporary medical id cards as PDFs, 
-                    the content migration from Vignette to Adobe Experience Manager, and 
-                    integrating Optum ID, Optum's umbrella identity management system, into many different parts of the portal.
-                </p>
-            </div>
-            <div class="job job-3">
-                <h3>Optum Inc, Cirrus Software Engineer</h3>
-                <h5>Backend Software Engineer</h5>
-                <p>Cirrus is Optum's large-scale healthcare solution that automates claim adjudication, benefit coverage, and member administration.
-                    I developed RESTful APIs used for claims processing, searching members' claims, and member profile managment under platform's Member microservice domain.
-                </p>
-            </div>
-            <div class="job job-4">
-                <h3>Optum Inc, OptumCare Delivery Portal</h3>
-                <h5>Test Automation Engineer</h5>
-                <p>OptumCare Portal is a portal where patients communicate with physicians for primary care, specialty care, and post-acute care.
-                    I generated automated test scripts to team's API services used to search for patient and physician information including history, PCPs, and demographics.
-                </p>
-            </div>
-        </div>
-    </main>
-
-    <footer id="main-footer">
-        Copyright &copy; 2020
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
-</html>
+        <script src="js/main.js"></script>
+    </body>
+    </html>

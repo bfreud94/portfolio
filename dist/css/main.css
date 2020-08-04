@@ -152,39 +152,96 @@ main {
       margin-top: 20vh; }
 
 .about-info {
+  margin: 100px 0px 0px 0px;
+  display: block; }
+  .about-info .description-and-image {
+    text-align: center; }
+  .about-info .bio-personal-life {
+    display: flex;
+    margin: 0px 0px 100px 0px; }
+    .about-info .bio-personal-life img {
+      margin: 100px 90px 0px 0px;
+      height: 350px;
+      width: 350px; }
+    .about-info .bio-personal-life div {
+      text-align: left;
+      width: 50%; }
+    .about-info .bio-personal-life h1 {
+      font-size: 64px; }
+    .about-info .bio-personal-life p {
+      font-size: 24px; }
+  .about-info .technical-proficencies {
+    display: flex;
+    margin: 0px 0px 100px 0px; }
+    .about-info .technical-proficencies img {
+      margin: 100px 90px 0px 0px;
+      height: 350px;
+      width: 350px; }
+    .about-info .technical-proficencies div {
+      text-align: left;
+      width: 50%; }
+    .about-info .technical-proficencies h1 {
+      font-size: 64px; }
+    .about-info .technical-proficencies p {
+      font-size: 24px; }
+  .about-info .sports {
+    display: flex;
+    margin: 0px 0px 100px 0px; }
+    .about-info .sports img {
+      margin: 100px 90px 0px 0px;
+      height: 350px;
+      width: 350px; }
+    .about-info .sports div {
+      text-align: left;
+      width: 50%; }
+    .about-info .sports h1 {
+      font-size: 64px; }
+    .about-info .sports p {
+      font-size: 24px; }
+  .about-info .hobbies {
+    display: flex;
+    margin: 0px 0px 100px 0px; }
+    .about-info .hobbies img {
+      margin: 100px 90px 0px 0px;
+      height: 350px;
+      width: 350px; }
+    .about-info .hobbies div {
+      text-align: left;
+      width: 50%; }
+    .about-info .hobbies h1 {
+      font-size: 64px; }
+    .about-info .hobbies p {
+      font-size: 24px; }
+
+.professional-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio'
- 'job1 job2 job3';
+  grid-template-areas: 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
-  .about-info .bio-image {
-    grid-area: bioimage;
-    margin: auto;
-    border-radius: 50%;
-    border: #eece1a 3px solid; }
-  .about-info .bio {
-    grid-area: bio;
-    font-size: 1.5rem; }
-  .about-info .job-1 {
+  .professional-info .job-image {
+    display: block;
+    width: 100%;
+    height: 275px; }
+  .professional-info .job-1 {
     grid-area: job1; }
-  .about-info .job-2 {
+  .professional-info .job-2 {
     grid-area: job2; }
-  .about-info .job-3 {
+  .professional-info .job-3 {
     grid-area: job3; }
-  .about-info .job {
+  .professional-info .job {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
-.projects {
+.personal-projects {
   display: grid;
   grid-gap: 0.7rem;
-  grid-template-columns: repeat(3, 1fr); }
-  .projects img {
+  grid-template-columns: repeat(4, 1fr); }
+  .personal-projects img {
     height: 14rem;
     width: 100%;
     border: 3px #fff solid; }
-    .projects img:hover {
+    .personal-projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
@@ -237,7 +294,7 @@ main {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
-  .projects {
+  .personal-projects {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
@@ -265,15 +322,11 @@ main {
     .menu-branding .portrait {
       width: 150px;
       height: 150px; }
-  .about-info {
-    grid-template-areas: 'bioimage'
- 'bio'
- 'job1'
- 'job2'
- 'job3';
+  .professional-info {
+    grid-template-areas: 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
-  .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+  .personal-projects {
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -283,5 +336,21 @@ main {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 5rem; }
-  .projects {
-    grid-template-columns: 1fr; } }
+  .about-info {
+    grid-template-columns: 1fr; }
+    .about-info .bio-personal-life {
+      display: block; }
+      .about-info .bio-personal-life div {
+        width: 100%; }
+    .about-info .technical-proficencies {
+      display: block; }
+      .about-info .technical-proficencies div {
+        width: 100%; }
+    .about-info .sports {
+      display: block; }
+      .about-info .sports div {
+        width: 100%; }
+    .about-info .hobbies {
+      display: block; }
+      .about-info .hobbies div {
+        width: 100%; } }

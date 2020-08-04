@@ -7,7 +7,7 @@
 
 // Desktops & Laptops
 @include mediaLg    {
-    .projects   {
+    .personal-projects   {
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -51,18 +51,16 @@
         }
     }
 
-    .about-info {
+    .professional-info {
         grid-template-areas: 
-        'bioimage'
-        'bio'
         'job1'
         'job2'
         'job3';
         grid-template-columns: 1fr;
     }
 
-    .projects   {
-        grid-template-columns: repeat(2, 1fr);
+    .personal-projects   {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -79,7 +77,31 @@
             font-size: 5rem;
         }
     }
-    .projects   {
+    .about-info   {
         grid-template-columns: 1fr;
+        .bio-personal-life {
+            display: block;
+            div {
+                width: 100%;
+            }
+        }
+        .technical-proficencies {
+            display: block;
+            div {
+                width: 100%;
+            }
+        }
+        .sports {
+            display: block;
+            div {
+                width: 100%;
+            }
+        }
+        .hobbies {
+            display: block;
+            div {
+                width: 100%;
+            }
+        }
     }
 }
