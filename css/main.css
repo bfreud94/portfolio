@@ -159,10 +159,16 @@ main {
   .about-info .bio-personal-life {
     display: flex;
     margin: 0px 0px 100px 0px; }
-    .about-info .bio-personal-life img {
-      margin: 100px 90px 0px 0px;
-      height: 350px;
-      width: 350px; }
+    @media only screen and (min-width: 1550px) {
+      .about-info .bio-personal-life img {
+        margin: 100px 90px 0px 0px;
+        height: 350px;
+        width: 350px; } }
+    @media only screen and (max-width: 1549px) {
+      .about-info .bio-personal-life img {
+        margin: 100px 50px 0px 0px;
+        height: 250px;
+        width: 250px; } }
     .about-info .bio-personal-life div {
       text-align: left;
       width: 50%; }
@@ -173,10 +179,16 @@ main {
   .about-info .technical-proficencies {
     display: flex;
     margin: 0px 0px 100px 0px; }
-    .about-info .technical-proficencies img {
-      margin: 100px 90px 0px 0px;
-      height: 350px;
-      width: 350px; }
+    @media only screen and (min-width: 1550px) {
+      .about-info .technical-proficencies img {
+        margin: 100px 90px 0px 0px;
+        height: 350px;
+        width: 350px; } }
+    @media only screen and (max-width: 1549px) {
+      .about-info .technical-proficencies img {
+        margin: 100px 50px 0px 0px;
+        height: 250px;
+        width: 250px; } }
     .about-info .technical-proficencies div {
       text-align: left;
       width: 50%; }
@@ -187,10 +199,16 @@ main {
   .about-info .sports {
     display: flex;
     margin: 0px 0px 100px 0px; }
-    .about-info .sports img {
-      margin: 100px 90px 0px 0px;
-      height: 350px;
-      width: 350px; }
+    @media only screen and (min-width: 1550px) {
+      .about-info .sports img {
+        margin: 100px 90px 0px 0px;
+        height: 350px;
+        width: 350px; } }
+    @media only screen and (max-width: 1549px) {
+      .about-info .sports img {
+        margin: 100px 50px 0px 0px;
+        height: 250px;
+        width: 250px; } }
     .about-info .sports div {
       text-align: left;
       width: 50%; }
@@ -201,10 +219,16 @@ main {
   .about-info .hobbies {
     display: flex;
     margin: 0px 0px 100px 0px; }
-    .about-info .hobbies img {
-      margin: 100px 90px 0px 0px;
-      height: 350px;
-      width: 350px; }
+    @media only screen and (min-width: 1550px) {
+      .about-info .hobbies img {
+        margin: 100px 90px 0px 0px;
+        height: 350px;
+        width: 350px; } }
+    @media only screen and (max-width: 1549px) {
+      .about-info .hobbies img {
+        margin: 100px 50px 0px 0px;
+        height: 250px;
+        width: 250px; } }
     .about-info .hobbies div {
       text-align: left;
       width: 50%; }
