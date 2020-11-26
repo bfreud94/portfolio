@@ -83,10 +83,19 @@ main   {
     .bio-personal-life {
         display: flex;
         margin: 0px 0px 100px 0px;
-        img {
-            margin: 100px 90px 0px 0px;
-            height: 350px;
-            width: 350px;
+        @media only screen and (min-width: 1550px) {
+            img {
+                margin: 100px 90px 0px 0px;
+                height: 350px;
+                width: 350px;
+            }
+        }
+        @media only screen and (max-width: 1549px) {
+            img {
+                margin: 100px 50px 0px 0px;
+                height: 250px;
+                width: 250px;
+            }
         }
         div {
             text-align: left;
@@ -103,10 +112,19 @@ main   {
     .technical-proficencies {
         display: flex;
         margin: 0px 0px 100px 0px;
-        img {
-            margin: 100px 90px 0px 0px;
-            height: 350px;
-            width: 350px;
+        @media only screen and (min-width: 1550px) {
+            img {
+                margin: 100px 90px 0px 0px;
+                height: 350px;
+                width: 350px;
+            }
+        }
+        @media only screen and (max-width: 1549px) {
+            img {
+                margin: 100px 50px 0px 0px;
+                height: 250px;
+                width: 250px;
+            }
         }
         div {
             text-align: left;
@@ -123,10 +141,19 @@ main   {
     .sports {
         display: flex;
         margin: 0px 0px 100px 0px;
-        img {
-            margin: 100px 90px 0px 0px;
-            height: 350px;
-            width: 350px;
+        @media only screen and (min-width: 1550px) {
+            img {
+                margin: 100px 90px 0px 0px;
+                height: 350px;
+                width: 350px;
+            }
+        }
+        @media only screen and (max-width: 1549px) {
+            img {
+                margin: 100px 50px 0px 0px;
+                height: 250px;
+                width: 250px;
+            }
         }
         div {
             text-align: left;
@@ -143,10 +170,19 @@ main   {
     .hobbies {
         display: flex;
         margin: 0px 0px 100px 0px;
-        img {
-            margin: 100px 90px 0px 0px;
-            height: 350px;
-            width: 350px;
+        @media only screen and (min-width: 1550px) {
+            img {
+                margin: 100px 90px 0px 0px;
+                height: 350px;
+                width: 350px;
+            }
+        }
+        @media only screen and (max-width: 1549px) {
+            img {
+                margin: 100px 50px 0px 0px;
+                height: 250px;
+                width: 250px;
+            }
         }
         div {
             text-align: left;
