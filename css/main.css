@@ -176,46 +176,6 @@ main {
       font-size: 64px; }
     .about-info .bio-personal-life p {
       font-size: 24px; }
-  .about-info .technical-proficencies {
-    display: flex;
-    margin: 0px 0px 100px 0px; }
-    @media only screen and (min-width: 1550px) {
-      .about-info .technical-proficencies img {
-        margin: 100px 90px 0px 0px;
-        height: 350px;
-        width: 350px; } }
-    @media only screen and (max-width: 1549px) {
-      .about-info .technical-proficencies img {
-        margin: 100px 50px 0px 0px;
-        height: 250px;
-        width: 250px; } }
-    .about-info .technical-proficencies div {
-      text-align: left;
-      width: 50%; }
-    .about-info .technical-proficencies h1 {
-      font-size: 64px; }
-    .about-info .technical-proficencies p {
-      font-size: 24px; }
-  .about-info .sports {
-    display: flex;
-    margin: 0px 0px 100px 0px; }
-    @media only screen and (min-width: 1550px) {
-      .about-info .sports img {
-        margin: 100px 90px 0px 0px;
-        height: 350px;
-        width: 350px; } }
-    @media only screen and (max-width: 1549px) {
-      .about-info .sports img {
-        margin: 100px 50px 0px 0px;
-        height: 250px;
-        width: 250px; } }
-    .about-info .sports div {
-      text-align: left;
-      width: 50%; }
-    .about-info .sports h1 {
-      font-size: 64px; }
-    .about-info .sports p {
-      font-size: 24px; }
   .about-info .hobbies {
     display: flex;
     margin: 0px 0px 100px 0px; }
@@ -365,14 +325,6 @@ main {
     .about-info .bio-personal-life {
       display: block; }
       .about-info .bio-personal-life div {
-        width: 100%; }
-    .about-info .technical-proficencies {
-      display: block; }
-      .about-info .technical-proficencies div {
-        width: 100%; }
-    .about-info .sports {
-      display: block; }
-      .about-info .sports div {
         width: 100%; }
     .about-info .hobbies {
       display: block; }
