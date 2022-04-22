@@ -151,52 +151,6 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
-.about-info {
-  margin: 100px 0px 0px 0px;
-  display: block; }
-  .about-info .description-and-image {
-    text-align: center; }
-  .about-info .bio-personal-life {
-    display: flex;
-    margin: 0px 0px 100px 0px; }
-    @media only screen and (min-width: 1550px) {
-      .about-info .bio-personal-life img {
-        margin: 100px 90px 0px 0px;
-        height: 350px;
-        width: 350px; } }
-    @media only screen and (max-width: 1549px) {
-      .about-info .bio-personal-life img {
-        margin: 100px 50px 0px 0px;
-        height: 250px;
-        width: 250px; } }
-    .about-info .bio-personal-life div {
-      text-align: left;
-      width: 50%; }
-    .about-info .bio-personal-life h1 {
-      font-size: 64px; }
-    .about-info .bio-personal-life p {
-      font-size: 24px; }
-  .about-info .hobbies {
-    display: flex;
-    margin: 0px 0px 100px 0px; }
-    @media only screen and (min-width: 1550px) {
-      .about-info .hobbies img {
-        margin: 100px 90px 0px 0px;
-        height: 350px;
-        width: 350px; } }
-    @media only screen and (max-width: 1549px) {
-      .about-info .hobbies img {
-        margin: 100px 50px 0px 0px;
-        height: 250px;
-        width: 250px; } }
-    .about-info .hobbies div {
-      text-align: left;
-      width: 50%; }
-    .about-info .hobbies h1 {
-      font-size: 64px; }
-    .about-info .hobbies p {
-      font-size: 24px; }
-
 .professional-info {
   display: grid;
   grid-gap: 30px;
@@ -307,7 +261,7 @@ main {
       width: 150px;
       height: 150px; }
   .professional-info {
-    grid-template-areas: 'job1' 'job2' 'job3';
+    grid-template-areas: 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .personal-projects {
     grid-template-columns: repeat(1, 1fr); } }
@@ -319,14 +273,4 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
-  .about-info {
-    grid-template-columns: 1fr; }
-    .about-info .bio-personal-life {
-      display: block; }
-      .about-info .bio-personal-life div {
-        width: 100%; }
-    .about-info .hobbies {
-      display: block; }
-      .about-info .hobbies div {
-        width: 100%; } }
+      font-size: 5rem; } }
