@@ -77,19 +77,4 @@
             font-size: 5rem;
         }
     }
-    .about-info   {
-        grid-template-columns: 1fr;
-        .bio-personal-life {
-            display: block;
-            div {
-                width: 100%;
-            }
-        }
-        .hobbies {
-            display: block;
-            div {
-                width: 100%;
-            }
-        }
-    }
 }
