@@ -1,9 +1,9 @@
 {
-  "name": "freudsportfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "Freud's Portfolio Website",
   "main": "index.js",
-  "homepage": "https://bfreud94.github.io/freudsPortfolio",
+  "homepage": "https://bfreud94.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
